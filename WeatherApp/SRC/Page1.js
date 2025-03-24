@@ -1,6 +1,6 @@
 import React from 'react';
 import { View, TextInput, Button, StyleSheet } from 'react-native';
-import QRCodeScanner from 'react-native-qrcode-scanner';
+import QRCodeScanner from 'react-native-vision-camera'
 
 export default function Page1({ qrData, setQrData, onNext }) {
   // Called when a QR code is successfully scanned
